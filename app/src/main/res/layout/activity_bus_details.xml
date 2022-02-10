@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/plaincolor"
+    android:id="@+id/bus_details"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".BusDetailsActivity"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Bus Details"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/greenbus"
+        android:layout_width="133dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/greenbus1" />
+
+    <ImageView
+        android:id="@+id/bluebus"
+        android:layout_width="133dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="10dp"
+        app:srcCompat="@drawable/bluebus1" />
+
+    <ImageView
+        android:id="@+id/redbus"
+        android:layout_width="133dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="10dp"
+        app:srcCompat="@drawable/redbus1" />
+
+    <Button
+        android:id="@+id/greenbutton"
+        android:layout_width="137dp"
+        android:layout_height="75dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="89dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="41dp"
+        android:background="@drawable/blue2"
+        android:layout_marginBottom="-156dp"
+        android:layout_toEndOf="@+id/greenbus"
+        android:text="Get Green Bus Details" />
+
+    <Button
+        android:id="@+id/bluebutton"
+        android:layout_width="145dp"
+        android:layout_height="88dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="281dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/blue2"
+        android:layout_marginBottom="-369dp"
+        android:layout_toEndOf="@+id/greenbus"
+        android:text="Get Blue Bus Details"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/redbutton"
+        android:layout_width="145dp"
+        android:layout_height="88dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="478dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="-566dp"
+        android:layout_toEndOf="@+id/greenbus"
+        android:background="@drawable/blue2"
+        android:text="Get Red Bus Details"
+        android:textColor="@color/black"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/backtouserhome"
+        android:layout_width="44dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="670dp"
+        android:src="@drawable/ic_baseline_arrow_back_ios_24" />
+
+
+</RelativeLayout>

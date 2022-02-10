@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "590882877684",
+    "firebase_url": "https://bustracker24x7-default-rtdb.firebaseio.com",
+    "project_id": "bustracker24x7",
+    "storage_bucket": "bustracker24x7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590882877684:android:fa4f99926279ffe116aea1",
+        "android_client_info": {
+          "package_name": "com.example.bustracker24x7"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590882877684-i2npohpln2bkv8ukm1to83d4494mnlap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzIylcL3rYoCCY-ajEPTaf8QcsqdM0wro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590882877684-i2npohpln2bkv8ukm1to83d4494mnlap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
